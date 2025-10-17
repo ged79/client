@@ -1,0 +1,115 @@
+
+> @flower/client@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.22
+  - Environments: .env.production.local, .env.local, .env.production
+
+   Creating an optimized production build ...
+> [PWA] Compile server
+> [PWA] Compile server
+> [PWA] Compile client (static)
+> [PWA] Auto register service worker with: C:\work_station\flower\node_modules\.pnpm\next-pwa@5.6.0_@babel+core@7.28.3_next@14.2.22_@babel+core@7.28.3_react-dom@18.3.1_react@18.3_rg2rlso37eeakbpdssgsuezm64\node_modules\next-pwa\register.js
+> [PWA] Service worker: C:\work_station\flower\apps\client\public\sw.js
+> [PWA]   url: /sw.js
+> [PWA]   scope: /
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (108kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⚠ Compiled with warnings
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createServerClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+./src/lib/supabase/server.ts
+./src/app/api/health/route.ts
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+A Node.js API is used (process.versions at line: 11) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+A Node.js API is used (process.versions at line: 12) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+A Node.js API is used (process.versions at line: 58) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+A Node.js API is used (process.versions at line: 59) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+A Node.js API is used (process.versions at line: 60) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+../../node_modules/.pnpm/@supabase+realtime-js@2.15.0/node_modules/@supabase/realtime-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+A Node.js API is used (process.version at line: 24) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/@supabase+supabase-js@2.54.0/node_modules/@supabase/supabase-js/dist/module/index.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/createBrowserClient.js
+../../node_modules/.pnpm/@supabase+ssr@0.5.2_@supabase+supabase-js@2.54.0/node_modules/@supabase/ssr/dist/module/index.js
+
+   Linting and checking validity of types ...
+Failed to compile.
+
+./src/app/(auth)/register/page.tsx:118:5
+Type error: Cannot find name 'checkExistingStores'. Did you mean 'existingStores'?
+
+[0m [90m 116 |[39m   useEffect(() [33m=>[39m {[0m
+[0m [90m 117 |[39m     loadProducts()[0m
+[0m[31m[1m>[22m[39m[90m 118 |[39m     checkExistingStores()[0m
+[0m [90m     |[39m     [31m[1m^[22m[39m[0m
+[0m [90m 119 |[39m     [0m
+[0m [90m 120 |[39m     [36mconst[39m script [33m=[39m document[33m.[39mcreateElement([32m'script'[39m)[0m
+[0m [90m 121 |[39m     script[33m.[39msrc [33m=[39m [32m'//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js'[39m[0m
+Static worker exited with code: 1 and signal: null
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path C:\work_station\flower\apps\client
+npm error workspace @flower/client@1.0.0
+npm error location C:\work_station\flower\apps\client
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c next build
